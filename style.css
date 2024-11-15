@@ -1,0 +1,745 @@
+/* head section css */
+@media only screen and (max-width: 355px) {
+      
+    #phone{
+      display: block;
+    }
+    #mesage{
+      display: block;
+
+    }
+}
+   /* Custom CSS for centering logo and buttons */
+   .navbar-brand,
+   .navbar-nav {
+     justify-content: center;
+     flex-grow: 1;
+   }
+   .navbar-nav .nav-link {
+     text-align: center;
+   }
+   /* media quiry for nav bar*/
+   @media only screen and (min-width: 992px) {
+          #navlogo{
+            text-align: center;
+          }
+   }
+   /* third section css started from here */
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 300px;
+    background-color: none;
+    color: white;
+  }
+  /* 0verlay h2 class */
+ .overlay-content .h2 {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 50px;
+    padding: 0%;
+  }
+  /* overlay paragraph */
+  .overlay-content p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  /* description css*/ 
+  .overlay-content .lead{
+    font-size: small;
+  }
+  /* button css*/
+  #button {
+    margin: 0 5px;
+    border-radius: 30px; 
+  }
+    /* media quiry for overlay content*/
+    @media only screen and (min-width: 992px) {
+      .overlay-content{
+        left: 10%;
+      } }
+      @media only screen and (max-width: 991px) {
+        .overlay-content{
+          padding-left: 7px;
+          width: 55%;
+        } }
+        /* media quiery for 725px sacreen size */
+      @media only screen and (max-width: 730px) {
+        .overlay-content{
+          position: absolute;
+          top: 55%;
+          padding-top: 10px;
+          padding-left: 5px;
+          width: 350px;
+          height: 300px;}
+        .overlay-content .h2{
+          font-size: 30px;
+        }
+      }
+      /* media qury for 615px sacreen size */
+      @media only screen and (max-width: 615px) {
+        .overlay-content {
+          position: absolute;
+          top: 45%;
+          padding-left: 3px;
+          width: 50%; 
+          height: auto; /* Allow height to adjust based on content */
+      }
+       /* this is fluid container class and img class names */
+      .alisimg{
+        height: 400px;
+      }
+      .alisimg1{
+        height: 350px !important;
+      }
+        .overlay-content .h2{
+          padding-left: 10px;
+          font-size: 25px;
+        }
+        .overlay-content p{
+          padding-left: 10px;
+        }
+        .overlay-content #button{
+         font-size: smaller;
+        }
+      }
+      /* media query for 450px sacreen */
+      @media only screen and (max-width: 450px) {
+        .overlay-content{
+         position: absolute;
+         top: 50%;
+         width: 50%;
+         height: auto;
+        padding-left: 5px;
+        }
+        /* this is fluid container class and img class names */
+        .alisimg{
+          height: 350px;
+        }
+        .alisimg1{
+          height: 350px !important;
+        }
+       .overlay-content .h2{
+         font-size: 20px;
+       }
+       .overlay-content #button{
+        font-size: smaller;
+        padding: 5px;
+        margin-bottom: 6px;
+       }
+     }   
+ /* css for solution area text its 4th section */
+ #solutiontext{
+  border-right: 2px solid blue;
+ }
+ @media only screen and (max-width: 767px) {
+   #solutiontext{
+    margin: 5px 15px;
+   }
+   #solutiontextright{
+    margin: 5px 15px;
+   }
+ }
+ /* css for 5th section in which small images are used */
+ .ali1{
+  margin-top: 35px;
+  margin-bottom: 20px; /* its 1st image in 4th section css */
+ }
+ .ali2{
+  margin-top: 35px;
+  margin-bottom: 10px;/* its 2nd image in 4th section css */
+ }
+ .ali3{
+    margin-top: 35px;
+    margin-bottom: 10px; /* its 3rd image in 4th section css */
+ }
+ /* from here or 6th section css start in which tab computer and mobile images combination is */
+ #rightforimg-sec{
+  background-color: whitesmoke;
+  margin-top: 40px;
+ }
+/* media quiry */
+
+@media only screen and (max-width: 767px) {
+  #rightfordis{
+    justify-content: center;
+    align-items: center;
+  }
+}
+ /* from here css of our success ratio area started and it is our 7th section  */
+ #success-ratio{
+  border-top: 1px solid lightgray;
+ }
+ /* from here css of our 8th section started which is about us section */
+ .about-us p{
+  font-size: x-small;
+ }
+ /* media query for abut us section */
+ @media only screen and (min-width: 768px) {
+#aboutus-div{
+  justify-content: flex-end;
+  align-items: center;
+}
+}
+@media only screen and (max-width: 768px) {
+  #aboutus-div{
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* quiry for james paulo img that is from assets folder*/
+@media only screen and (min-width: 409px) {
+#james-paulo{
+  height: 100px;
+  width: 150px;
+}
+}
+@media only screen and (max-width: 408px) {
+  #james-paulo{
+    height: 50px;
+    width: 100px;
+  }
+}
+/* word press theme section css tis sec is sibling of about us section */
+.setup-icon{
+  border-bottom: 1px solid lightgrey;
+}
+.wordpress p{
+  font-size: x-small;
+  color: black;
+}
+.wordpress{
+  border-bottom: 1px solid lightgray;
+}
+/* media quiry for setup div */
+@media only screen and (max-width: 768px) {
+  #setup-div{
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* from here the css our 9th section stared in which we set responsive image and overlay content */
+.centered-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.centered-content p {
+  font-size: x-small;
+}
+
+.h2heading {
+  font-size: 40px;
+}
+
+/* Media query for screens with a maximum width of 1007px this is the long media quiery ihave ever don*/
+
+@media only screen and (max-width: 1007px) {
+  .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+  }
+  /* this is container calss and img calaas  */
+  .container-height{
+    height: 300px;
+  }
+  .img-height{
+    height: 300px !important;
+  }
+    /* this is container calss and img calaas ended */
+  .centered-content .h2heading{
+    font-size: 40px;
+  }
+}
+ /* media qury for 896px sacreen size*/
+ @media only screen and (max-width: 896px) {
+  .centered-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 60%;
+   height: auto;
+  }
+    /* this is container calss and img calaas  */
+    .container-height{
+      height: 300px;
+    }
+    .img-height{
+      height: 300px !important;
+    }
+      /* this is container calss and img calaas ended */
+ .centered-content .h2heading{
+   font-size: 30px;
+ }
+ .centered-content #button{
+  font-size: smaller;
+ }
+}
+ /* media qury for 685px sacreen size*/
+ @media only screen and (max-width: 685px) {
+  .centered-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 70%;
+   height: auto;
+  }
+    /* this is container calss and img calaas  */
+    .container-height{
+      height: 300px;
+    }
+    .img-height{
+      height: 300px !important;
+    }
+    /* this is container calss and img calaas ended */
+ .centered-content .h2heading{
+   font-size: 30px;
+ }
+ .centered-content #button{
+  font-size: smaller;
+ }
+}
+ /* media qury for 610px sacreen size*/
+ @media only screen and (max-width: 610px) {
+  .centered-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 80%;
+   height: auto;
+  }
+      /* this is container calss and img calaas  */
+      .container-height{
+        height: 300px;
+      }
+      .img-height{
+        height: 300px !important;
+      }
+      /* this is container calss and img calaas ended */
+ .centered-content .h2heading{
+   font-size: 30px;
+ }
+ .centered-content #button{
+  font-size: smaller;
+ }
+}
+ /* media qury for 480px sacreen size*/
+ @media only screen and (max-width: 480px) {
+  .centered-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 80%;
+   height: auto;
+  }
+      /* this is container calss and img calaas  */
+      .container-height{
+        height: 300px;
+      }
+      .img-height{
+        height: 300px !important;
+      }
+      /* this is container calss and img calaas ended */
+ .centered-content .h2heading{
+   font-size: 30px;
+ }
+ .centered-content #button{
+  font-size: smaller;
+ }
+}
+ /* media qury for 430px sacreen size*/
+ @media only screen and (max-width: 430px) {
+  .centered-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 90%;
+   height: auto;
+  }
+      /* this is container calss and img calaas  */
+      .container-height{
+        height: 300px;
+      }
+      .img-height{
+        height: 300px !important;
+      }
+      /* this is container calss and img calaas ended */
+ .centered-content .h2heading{
+   font-size: 25px;
+ }
+ .centered-content #button{
+  font-size: smaller;
+ }
+}
+/* Media query for screens with a minimum width of 430px ended here this is the longest media quiery ihave ever done*/
+/* here we start css of 10th section */
+.imgdiv1{
+  justify-content: end;
+  align-items: end;
+}
+.imgdiv2{
+  justify-content: center;
+  align-items: center;
+}
+.imgdiv4{
+  justify-content: end;
+  align-items: end;
+}
+.imgdiv5{
+  justify-content: center;
+  align-items: center;
+}
+/* from here we start the media query for our project images */
+@media only screen and (max-width: 767px) {
+  .imgdiv1{
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv2{
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv3{
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv4{
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv5{
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv6{
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* from here css of our 11th section started which is about testimonial  */
+.testi{
+  color: white;
+}
+.contentin-mid{
+  color: white;
+}
+/* media quiry foe testimonial section responsiveness for 600px sacreen size */
+@media only screen and (min-width: 600px) {
+   .testi{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.contentin-mid p{
+  font-size: small;
+  color: white;
+  font-style: italic;
+  }
+.svetin{
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+} 
+.contentin-mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}}
+/* meida quiery for 599px sacren size */
+@media only screen and (max-width: 599px) {
+  .contentin-mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto; /* Adjusted to auto */
+    width: 80%; 
+  }
+  .contentin-mid p{
+    font-size: small;
+    color: white;
+    font-style: italic;
+    }
+  
+  .testi {
+    margin: 0; 
+    font-size: x-large;
+  }
+  
+  .svetin {
+    margin: 0; 
+    height: 30px;
+    width: 30px;
+  }
+}
+/* meida quiery for 375px sacren size */
+@media only screen and (max-width: 440px) {
+  .contentin-mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto; /* Adjusted to auto */
+    width: 90%; 
+  }
+  #testimonal-container{
+    height: 250px;
+  }
+  #testimonal-img{
+    height: 250px !important;
+  }
+  .contentin-mid p{
+    font-size: x-small;
+    color: white;
+    font-style: italic;
+    }
+  .testi {
+    margin: 0; 
+    font-size: large;
+  }
+  .svetin {
+    margin: 0; 
+    height: 20px;
+    width: 20px;
+  }
+  #svetin-text{
+    font-size: x-small;
+  }
+}
+/* media quiry foe testimonial section responsiveness for all sacreen sizes ended here */
+/*  here we start css of our 12th section which is about about the team of our company */
+.awesomesize{
+  font-size: xx-small;
+}
+/* media quiry for maximum 767px width sacreen size */
+@media only screen and (min-width: 300px) {
+  /* main row css */
+.main-container{
+  justify-content: center;
+  align-items: center;
+}
+
+.custome-width{
+  width: 80%;
+}
+  /* css of picture 1 */
+  .pic1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.span11{
+  font-size: xx-small;
+}
+.pic1 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic1 ends */
+/* css of pic2 strats */
+.pic2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.span12{
+  font-size: xx-small;
+}
+.pic2 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic2 ends here */
+/* css of pic3 starts here */
+.pic3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.span13{
+  font-size: xx-small;
+}
+.pic3 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic3 ends here  */
+/* css of pic 4 starts here */
+.pic4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.span14{
+  font-size: xx-small;
+}
+.pic4 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+}
+/* media quiry for minimum 768px width sacreen size */
+@media only screen and (min-width: 768px) {
+  /* main row css */
+.main-container{
+  justify-content: center;
+  align-items: center;
+}
+
+.custome-width{
+  width: 80%;
+}
+  /* css of picture 1 */
+.span11{
+  font-size: xx-small;
+}
+.pic1 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic1 ends */
+/* css of pic2 strats */
+.span12{
+  font-size: xx-small;
+}
+.pic2 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic2 ends here */
+/* css of pic3 starts here */
+.span13{
+  font-size: xx-small;
+}
+.pic3 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+/* css of pic3 ends here  */
+/* css of pic 4 starts here */
+.span14{
+  font-size: xx-small;
+}
+.pic4 p{
+  font-size: x-small;
+  font-family: Arial, sans-serif;
+}
+}
+/* from here css of our 13th section started which is also our brands section */
+.brands-grandparent{
+margin-top: 50px;
+}
+@media only screen and (min-width: 300px) {
+  .brands-grandparent{
+    justify-content: center;
+    align-items: center;
+  }
+  .brands-div{
+    width: 80%;
+  } 
+}
+/* from here css of our 14th section started which is also our above footer section */
+.above-footer-container{
+  background-color: darkblue;
+  align-items: center;
+  justify-content: center;
+}
+.above-footer-row{
+  width: 80%;
+}
+/* this is fontawesome div paragraph */
+#pragraph{
+font-size: x-small;
+}
+/* fontawesome css */
+.circle-icon {
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+#font1{
+  background-color: blue;
+}
+#font2{
+  background-color: skyblue;
+}
+#font3{
+  background-color: orange;
+}
+#font4{
+  background-color: red;
+}
+/* this is part second paragraph */
+.pragraph1{
+  font-size: x-small;
+  }
+  /* third part css */
+  .laptoppic1{
+    height: 50px;
+    width: 50px;
+  }
+  .pragraph2{
+    font-size: xx-small;
+  }
+  /* buttons css */
+  .btn-block-light-blue {
+    background-color: #ADD8E6; /* Light blue */
+    color: white; /* Text color white */
+  }
+
+  .btn-block-green {
+    background-color: #7FFF00; /* Green */
+    color: white; /* Text color white */
+  }
+  /* media queiry for extra small sacreen */
+  @media only screen and (max-width: 575px) {
+   #colum1{
+      text-align: center;
+    }
+  }
+  /* from here css of our 14th section ended which is also our above footer section */
+  .footer {
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer ul li:last-child {
+    margin-right: 0;
+  }
+  /* media quiry for footer section */
+  @media only screen and (min-width: 588px) {
+.footer-div{
+  text-align: end;
+}
+.footer-row{
+  width: 80%;
+}
+.footer-container{
+  justify-content: center;
+  align-items: center;
+}
+  } /* media quiry for footer section ends*/
+  
